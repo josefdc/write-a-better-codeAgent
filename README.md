@@ -1,6 +1,7 @@
 # Code Improving Agent Project
 
 This project implements a LangGraph agent designed to iteratively generate and improve Python code based on a problem description. It features secure code execution using Docker and includes a human-in-the-loop (HITL) step for reviewing and accepting/rejecting code improvements.
+![image](https://github.com/user-attachments/assets/e5119d53-4e16-45d8-9cea-5885f9499162)
 
 ## Features
 
