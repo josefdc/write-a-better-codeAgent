@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code_agent_project"
+version = "0.1.0"
+description = "Un agente LangGraph que mejora código iterativamente."
+readme = "README.md"
+requires-python = ">=3.11" # O la versión que uses
+# license = {text = "MIT"}
+
+dependencies = [
+    "langgraph",         # Core LangGraph
+    "langchain-core",    # Core LangChain types/interfaces
+    "langchain-anthropic", # LLM client
+    "pydantic",          # State definition
+    "docker",            # Docker execution sandbox
+    "python-dotenv",     # Loading .env files
+    "tenacity",          # Retries for LLM calls
+    "langsmith",         # For LangSmith tracing integration
+    "httpx>=0.25.0",     # Common HTTP client used by other libs
+]
+
+# [project.optional-dependencies]
+# dev = [ ... ] # Puedes añadir herramientas de desarrollo aquí si quieres

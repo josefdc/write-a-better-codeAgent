@@ -1,0 +1,16 @@
+{
+    "graphs": {
+      "code_agent": "src.main:app"
+    },
+    "dependencies": [
+      "langgraph",
+      "langchain-core",
+      "langchain-anthropic",
+      "pydantic",
+      "docker",
+      "python-dotenv",
+      "tenacity",
+      "langsmith",
+      "httpx>=0.25.0"
+    ]
+  }
